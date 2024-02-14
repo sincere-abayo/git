@@ -1,0 +1,28 @@
+<script type="text/javascript">
+	// Function to add two binary numbers
+function binaryAddition(bin1, bin2) {
+    const int1 = parseFloat(bin1, 2);
+    const int2 = parseFloat(bin2, 2);
+    const sum = int1 + int2;
+    return sum.toString(2);
+}
+
+// Function to multiply two binary numbers
+function binaryMultiplication(bin1, bin2) {
+    const int1 = parseFloat(bin1, 2);
+    const int2 = parseFloat(bin2, 2);
+    const product = int1 * int2;
+    return product.toString(2);
+}
+
+// Example usage
+const binaryNumber1 = "11.11";
+const binaryNumber2 = "11.11";
+
+const additionResult = binaryAddition(binaryNumber1, binaryNumber2);
+alert(`Binary Addition Result: ${additionResult}`);
+
+const multiplicationResult = binaryMultiplication(binaryNumber1, binaryNumber2);
+alert(`Binary Multiplication Result: ${multiplicationResult}`);
+
+</script>

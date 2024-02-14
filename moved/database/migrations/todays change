@@ -1,0 +1,5 @@
+cd public_html
+php artisan make:model Commission
+php artisan migrate
+changing admin pending users
+changing registration and userregistration

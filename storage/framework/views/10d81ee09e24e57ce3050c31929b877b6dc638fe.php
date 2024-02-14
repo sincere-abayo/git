@@ -1,0 +1,1 @@
+table.blade.php<?php /**PATH C:\Users\Andela\Documents\WEB DEVELOPMENT\Sincer\New\affiliate.muhahe.com\resources\views/components/table.blade.php ENDPATH**/ ?>
